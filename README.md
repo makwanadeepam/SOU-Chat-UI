@@ -63,3 +63,8 @@ pip install -r requirements.txt
 ```
 streamlit run main.py
 ```
+
+### Next steps
+ - Make the mapper scalable using a database.
+ - Use vector search algorithms instead of FuzzySearch.
+ - Remove the Google based dependencies since they have a quota attached to them.
