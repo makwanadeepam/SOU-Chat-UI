@@ -50,3 +50,16 @@ I’ve chosen a robust tech stack for building a simple chatbot that can map spo
    - **Cons**: 
      - Version stability can be an issue; it’s a release candidate, not a final version.
      - May face limitations or quota restrictions with extensive use.
+
+### Usage
+- Create a virtual environment and activate it.
+- Install dependencies.
+```bash
+pip install -r requirements.txt
+```
+- Make a folder called "videos" and add videos to it.
+- Map the videos to questions using mydb dictionary in main.py file.
+- Run the main.py file
+```
+streamlit run main.py
+```
